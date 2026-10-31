@@ -53,7 +53,6 @@ const videoObserver = new IntersectionObserver((entries) => {
     const video = target.querySelector('video');
     if (isIntersecting && !video.src) {
       video.src = video.dataset.src;
-      video.addEventListener('loadeddata', () => target.classList.add('has-video'), { once: true });
     }
     if (isIntersecting && !reduceMotion) video.play().catch(() => {});
     else video.pause();

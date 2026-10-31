@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
 
@@ -43,7 +43,7 @@
   <div class="hero-stage">
     <h1 class="hero-name"><span class="dash" aria-hidden="true"></span><span class="w1">Evelina</span> <span class="w2">Beyene</span></h1>
     <figure class="hero-portrait media" data-ph="Portrait">
-      <!-- <img src="assets/img/portrait.jpg" alt="Evelina Beyene"> -->
+      <img src="assets/img/portrait.jpg" alt="Portrait of Evelina Beyene" width="740" height="925" fetchpriority="high">
     </figure>
   </div>
   <div class="hero-foot">
@@ -64,19 +64,19 @@
   </div>
   <div class="work-grid">
     <a class="card reveal" href="#reel">
-      <figure class="media" data-ph="TikTok still"></figure>
+      <figure class="media" data-ph="TikTok still"><img src="assets/video/office-trend.jpg" alt="Still from the Office trend TikTok" loading="lazy"></figure>
       <div class="card-txt"><h3>TikTok content</h3><span>Concept · Filming · Editing</span></div>
     </a>
     <a class="card reveal" href="#press">
-      <figure class="media" data-ph="Press clippings"></figure>
+      <figure class="media media--contain" data-ph="Press clippings"><img src="assets/img/press-clippings.jpg" alt="Features in Vogue Scandinavia, Vogue Adria and ELLE" loading="lazy"></figure>
       <div class="card-txt"><h3>Press coverage</h3><span>Vogue · ELLE</span></div>
     </a>
     <a class="card reveal" href="#influencers">
-      <figure class="media" data-ph="Influencer post"></figure>
+      <figure class="media media--contain" data-ph="Influencer post"><img src="assets/img/influencers.jpg" alt="Instagram posts from seeded influencers" loading="lazy"></figure>
       <div class="card-txt"><h3>Influencer seeding</h3><span>Outreach · Gifting</span></div>
     </a>
     <a class="card reveal" href="#feed">
-      <figure class="media" data-ph="Instagram feed"></figure>
+      <figure class="media media--contain" data-ph="Instagram feed"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed" loading="lazy"></figure>
       <div class="card-txt"><h3>Instagram feed</h3><span>Content updates</span></div>
     </a>
   </div>
@@ -90,29 +90,29 @@
   </div>
   <div class="reel-track">
     <article class="reel-item reveal">
-      <div class="phone"><video data-src="assets/video/behind-the-scenes.mp4" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
+      <div class="phone has-video"><video data-src="assets/video/behind-the-scenes.mp4" poster="assets/video/behind-the-scenes.jpg" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
       <div class="reel-row"><h3>Behind the scenes</h3><span>01</span></div>
       <p>Authentic moments that give a more personal look into the brand.</p>
     </article>
     <article class="reel-item reveal">
-      <div class="phone"><video data-src="assets/video/office-trend.mp4" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
+      <div class="phone has-video"><video data-src="assets/video/office-trend.mp4" poster="assets/video/office-trend.jpg" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
       <div class="reel-row"><h3>Office trend</h3><span>02</span></div>
       <p>A TikTok trend brought into the office to show the shoes in a playful way.</p>
     </article>
     <article class="reel-item reveal">
-      <div class="phone"><video data-src="assets/video/fun-lifestyle.mp4" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
+      <div class="phone has-video"><video data-src="assets/video/fun-lifestyle.mp4" poster="assets/video/fun-lifestyle.jpg" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
       <div class="reel-row"><h3>Fun lifestyle</h3><span>03</span></div>
       <p>Playful, humorous content that feels native to TikTok.</p>
     </article>
     <article class="reel-item reveal">
-      <div class="phone"><video data-src="assets/video/product-focus.mp4" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
+      <div class="phone has-video"><video data-src="assets/video/product-focus.mp4" poster="assets/video/product-focus.jpg" muted loop playsinline preload="none"></video><span class="sound" aria-hidden="true"></span></div>
       <div class="reel-row"><h3>Product focus</h3><span>04</span></div>
       <p>Product versatility through engaging content and fast-paced editing.</p>
     </article>
   </div>
 
   <div class="feed" id="feed">
-    <figure class="media feed-img reveal" data-ph="Instagram feed"></figure>
+    <figure class="media feed-img reveal" data-ph="Instagram feed"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed during my time managing content updates" width="322" height="606" loading="lazy"></figure>
     <div class="reveal">
       <h3 class="feed-title">Instagram <em>feed</em></h3>
       <p class="sec-note">An example of the brand’s Instagram feed during my time managing content updates.</p>
@@ -135,10 +135,10 @@
   <div class="influencers" id="influencers">
     <p class="sec-note reveal">I supported the selection of relevant influencers and was responsible for outreach, communication and coordinating product seeding and gifting — resulting in organic social media exposure.</p>
     <div class="infl-grid">
-      <figure class="reveal"><div class="media" data-ph="Post"></div><figcaption>@jackieaina</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"></div><figcaption>@anoukyve</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"></div><figcaption>@natalieoffduty</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"></div><figcaption>@sofiaboman</figcaption></figure>
+      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-1.jpg" alt="Post by @jackieaina" loading="lazy"></div><figcaption>@jackieaina</figcaption></figure>
+      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-2.jpg" alt="Post by @anoukyve" loading="lazy"></div><figcaption>@anoukyve</figcaption></figure>
+      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-3.jpg" alt="Post by @natalieoffduty" loading="lazy"></div><figcaption>@natalieoffduty</figcaption></figure>
+      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-4.jpg" alt="Post by @sofiaboman" loading="lazy"></div><figcaption>@sofiaboman</figcaption></figure>
     </div>
   </div>
 </section>
@@ -174,15 +174,15 @@
     <div class="reveal">
       <p class="eyebrow">Experience</p>
       <ul class="cv-list">
-        <li><b>ATP Atelier</b><span>In-house · <!-- TODO roll -->Role</span><time><!-- TODO år -->Year</time></li>
-        <li><b>Jung Relations</b><span>PR agency · <!-- TODO roll -->Role</span><time><!-- TODO år -->Year</time></li>
+        <li><b>ATP Atelier</b><span>Marketing &amp; PR · Internship, in-house</span><time>Mar–Jul 2026</time></li>
+        <li><b>Jung Relations</b><span>Strategic Communication · Internship, PR agency</span><time>Feb–Mar 2023</time></li>
       </ul>
     </div>
     <div class="reveal">
       <p class="eyebrow">Education</p>
       <ul class="cv-list">
-        <li><b>Stockholm University</b><span>BA, Media &amp; Communication Studies</span><time>2026</time></li>
-        <li><b>Berghs School of Communication</b><span>Diploma, Strategic Communication</span><time>2023</time></li>
+        <li><b>Stockholm University</b><span>BA, Media &amp; Communication Studies</span><time>2023–2026</time></li>
+        <li><b>Berghs School of Communication</b><span>Diploma, Strategic Communication</span><time>2022–2023</time></li>
       </ul>
     </div>
   </div>
@@ -215,6 +215,6 @@
 </section>
 
 </main>
-<script src="script.js" defer></script>
+<script src="script.js?v=3" defer></script>
 </body>
 </html>
