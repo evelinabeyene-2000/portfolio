@@ -358,6 +358,9 @@ h2 em { letter-spacing: -.02em; }
 .doc-txt b { font-weight: 500; }
 .doc-txt span { color: var(--muted); font-size: 13px; }
 .doc:active .doc-paper { transform: scale(.98); }
+.doc-txt sup { margin-left: 2px; color: var(--muted); }
+.docs-note { margin-top: 28px; max-width: 70ch; font-size: 13px; color: var(--muted); }
+.docs-note a { color: var(--ink); border-bottom: 1px solid currentColor; }
 .cv-cols { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px); margin-top: clamp(64px, 8vw, 110px); }
 .cv-list li { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; padding: 18px 0; border-top: 1px solid var(--line); }
 .cv-list li:last-child { border-bottom: 1px solid var(--line); }
