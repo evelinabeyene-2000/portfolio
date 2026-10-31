@@ -2,18 +2,17 @@
 
 Static one-page portfolio (HTML/CSS/JS, no build step). Deployed on Vercel from `main`.
 
-## Adding real content
+## Content
 
-| What | Where | How |
-| --- | --- | --- |
-| Portrait | `assets/img/portrait.jpg` | Uncomment the `<img>` inside `.hero-portrait` in `index.html` |
-| Work / influencer / feed images | `assets/img/` | Put an `<img src="…" alt="…">` inside the matching `<figure class="media">` |
-| TikTok videos | `assets/video/` | Files named as in each `<video data-src>` — they load automatically |
-| CV | `assets/Evelina-Beyene-CV.pdf` | The "Download CV" button appears once the file exists. Use a version without references or phone number — the file is public |
-| LinkedIn | footer in `index.html` | Uncomment the LinkedIn link and add the URL |
-| Roles & years | Experience list in `index.html` | Replace `Role` / `Year` |
+| What | Where |
+| --- | --- |
+| Portrait, work, influencer and press images | `assets/img/` |
+| TikTok videos + poster stills | `assets/video/` (loaded when scrolled into view) |
+| CV | `assets/Evelina-Beyene-CV.pdf` |
+| Degree certificates, recommendation letter | `assets/docs/` |
 
-Any `.media` element without an image shows a striped placeholder.
+The Stockholm University certificate is a copy with the personal identity number removed. Never commit the original.
+After changing `styles.css` or `script.js`, bump the `?v=` number in `index.html` so browsers fetch the new version.
 
 ## Local preview
 

@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 
@@ -27,13 +27,14 @@
 
 <nav class="menu" id="menu" aria-hidden="true">
   <ul>
+    <li><a href="#about">About</a></li>
     <li><a href="#work">Work</a></li>
     <li><a href="#reel">Content</a></li>
-    <li><a href="#press">Press</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#press">PR</a></li>
+    <li><a href="#background">Background</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <p class="menu-foot">evelinabeyene@gmail.com</p>
+  <p class="menu-foot"><a href="mailto:evelinabeyene@gmail.com">evelinabeyene@gmail.com</a> · <a href="https://www.linkedin.com/in/evelina-beyene-4299071b6/" target="_blank" rel="noopener">LinkedIn ↗</a></p>
 </nav>
 
 <main id="top">
@@ -56,6 +57,26 @@
   </div>
 </section>
 
+<!-- ─── About ───────────────────────────────────────────── -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="reveal">
+      <p class="eyebrow">Who I am</p>
+      <p class="about-lead">I’m a recent graduate based in Stockholm with a strong interest in PR, marketing and brand communication.</p>
+      <p>Through my time at ATP Atelier and Jung Relations, I’ve gained hands-on experience in both in-house and agency environments — working with influencer relations, press communication, campaign coordination, social media and content creation.</p>
+      <p>I’m particularly passionate about fashion, beauty and lifestyle, with an interest in creative storytelling and building meaningful connections between brands and their audiences.</p>
+    </div>
+    <div class="facts reveal">
+      <div><b>2</b><span>Internships — in-house &amp; agency</span></div>
+      <div><b>2</b><span>Degrees in communication</span></div>
+      <div class="facts-btns">
+        <a class="pill-btn" href="assets/Evelina-Beyene-CV.pdf" target="_blank" rel="noopener">Download CV <span aria-hidden="true">↓</span></a>
+        <a class="pill-btn pill-btn--ghost" href="https://www.linkedin.com/in/evelina-beyene-4299071b6/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ─── Selected work ───────────────────────────────────── -->
 <section class="work" id="work">
   <div class="sec-head reveal">
@@ -64,20 +85,20 @@
   </div>
   <div class="work-grid">
     <a class="card reveal" href="#reel">
-      <figure class="media" data-ph="TikTok still"><img src="assets/video/office-trend.jpg" alt="Still from the Office trend TikTok" loading="lazy"></figure>
+      <figure class="media"><img src="assets/video/office-trend.jpg" alt="Still from the Office trend TikTok" loading="lazy"></figure>
       <div class="card-txt"><h3>TikTok content</h3><span>Concept · Filming · Editing</span></div>
     </a>
-    <a class="card reveal" href="#press">
-      <figure class="media media--contain" data-ph="Press clippings"><img src="assets/img/press-clippings.jpg" alt="Features in Vogue Scandinavia, Vogue Adria and ELLE" loading="lazy"></figure>
-      <div class="card-txt"><h3>Press coverage</h3><span>Vogue · ELLE</span></div>
-    </a>
     <a class="card reveal" href="#influencers">
-      <figure class="media media--contain" data-ph="Influencer post"><img src="assets/img/influencers.jpg" alt="Instagram posts from seeded influencers" loading="lazy"></figure>
-      <div class="card-txt"><h3>Influencer seeding</h3><span>Outreach · Gifting</span></div>
+      <figure class="media media--contain"><img src="assets/img/influencers.jpg" alt="Instagram posts from seeded influencers" loading="lazy"></figure>
+      <div class="card-txt"><h3>Influencer seeding</h3><span>Selection · Outreach · Gifting</span></div>
     </a>
     <a class="card reveal" href="#feed">
-      <figure class="media media--contain" data-ph="Instagram feed"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed" loading="lazy"></figure>
+      <figure class="media media--contain"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed" loading="lazy"></figure>
       <div class="card-txt"><h3>Instagram feed</h3><span>Content updates</span></div>
+    </a>
+    <a class="card reveal" href="#press">
+      <figure class="media media--contain"><img src="assets/img/press-clippings.jpg" alt="ATP Atelier products featured in Vogue Scandinavia, Vogue Adria and ELLE" loading="lazy"></figure>
+      <div class="card-txt"><h3>Press loans</h3><span>Product placements in fashion media</span></div>
     </a>
   </div>
 </section>
@@ -112,7 +133,7 @@
   </div>
 
   <div class="feed" id="feed">
-    <figure class="media feed-img reveal" data-ph="Instagram feed"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed during my time managing content updates" width="322" height="606" loading="lazy"></figure>
+    <figure class="media feed-img reveal"><img src="assets/img/instagram-feed.jpg" alt="Brand Instagram feed during my time managing content updates" width="322" height="606" loading="lazy"></figure>
     <div class="reveal">
       <h3 class="feed-title">Instagram <em>feed</em></h3>
       <p class="sec-note">An example of the brand’s Instagram feed during my time managing content updates.</p>
@@ -120,31 +141,54 @@
   </div>
 </section>
 
-<!-- ─── Press (noir) ────────────────────────────────────── -->
+<!-- ─── PR & influencers (noir) ─────────────────────────── -->
 <section class="noir press" id="press">
   <div class="sec-head reveal">
-    <h2>Press &amp; <em>influencers</em></h2>
-    <p class="sec-note">Editorial features secured through press placements and coordinated product loans.</p>
+    <h2>PR &amp; <em>influencer</em> relations</h2>
   </div>
-  <ul class="press-list">
-    <li class="reveal"><span class="n">01</span><b>VOGUE</b><span class="where">Scandinavia</span></li>
-    <li class="reveal"><span class="n">02</span><b>VOGUE</b><span class="where">Adria</span></li>
-    <li class="reveal"><span class="n">03</span><b>ELLE</b><span class="where">Sverige</span></li>
-  </ul>
 
   <div class="influencers" id="influencers">
-    <p class="sec-note reveal">I supported the selection of relevant influencers and was responsible for outreach, communication and coordinating product seeding and gifting — resulting in organic social media exposure.</p>
-    <div class="infl-grid">
-      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-1.jpg" alt="Post by @jackieaina" loading="lazy"></div><figcaption>@jackieaina</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-2.jpg" alt="Post by @anoukyve" loading="lazy"></div><figcaption>@anoukyve</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-3.jpg" alt="Post by @natalieoffduty" loading="lazy"></div><figcaption>@natalieoffduty</figcaption></figure>
-      <figure class="reveal"><div class="media" data-ph="Post"><img src="assets/img/influencer-4.jpg" alt="Post by @sofiaboman" loading="lazy"></div><figcaption>@sofiaboman</figcaption></figure>
+    <div class="pr-intro reveal">
+      <h3>Influencer seeding</h3>
+      <p class="sec-note">I supported the selection of relevant influencers and was responsible for outreach, communication and coordinating product seeding and gifting — resulting in organic social media exposure.</p>
     </div>
+    <div class="infl-grid">
+      <figure class="reveal"><div class="media"><img src="assets/img/influencer-1.jpg" alt="Post by @jackieaina" loading="lazy"></div><figcaption>@jackieaina</figcaption></figure>
+      <figure class="reveal"><div class="media"><img src="assets/img/influencer-2.jpg" alt="Post by @anoukyve" loading="lazy"></div><figcaption>@anoukyve</figcaption></figure>
+      <figure class="reveal"><div class="media"><img src="assets/img/influencer-3.jpg" alt="Post by @natalieoffduty" loading="lazy"></div><figcaption>@natalieoffduty</figcaption></figure>
+      <figure class="reveal"><div class="media"><img src="assets/img/influencer-4.jpg" alt="Post by @sofiaboman" loading="lazy"></div><figcaption>@sofiaboman</figcaption></figure>
+    </div>
+  </div>
+
+  <div class="placements">
+    <div class="pr-intro reveal">
+      <h3>Press loans &amp; placements</h3>
+      <p class="sec-note">I coordinated press loans and handled press requests for ATP Atelier. A selection of the resulting product placements in fashion media:</p>
+      <ul class="outlets" aria-label="Publications">
+        <li>Vogue Scandinavia</li>
+        <li>Vogue Adria</li>
+        <li>ELLE</li>
+      </ul>
+    </div>
+    <figure class="media media--contain placements-img reveal"><img src="assets/img/press-clippings.jpg" alt="ATP Atelier products featured in Vogue Scandinavia, Vogue Adria and ELLE" width="822" height="404" loading="lazy"></figure>
   </div>
 </section>
 
-<!-- ─── Skills + About ──────────────────────────────────── -->
-<section class="about" id="about">
+<!-- ─── Recommendation ──────────────────────────────────── -->
+<section class="quote">
+  <figure class="reveal">
+    <blockquote>
+      <p>“She took on her tasks with <em>thoroughness, professionalism</em> and a very positive attitude. Had we had the opportunity, we would gladly have offered Evelina a position.”</p>
+    </blockquote>
+    <figcaption>
+      <span><b>Claudio Pizzelli</b> · Art Director, ATP Atelier</span>
+      <a href="assets/docs/Evelina-Beyene-Recommendation-ATP-Atelier.pdf" target="_blank" rel="noopener">Read the full letter (Swedish) ↗</a>
+    </figcaption>
+  </figure>
+</section>
+
+<!-- ─── Background ──────────────────────────────────────── -->
+<section class="background" id="background">
   <div class="pills" aria-label="Skills">
     <span style="--x:4%;--y:58%;--r:-14deg">Influencer relations</span>
     <span style="--x:26%;--y:14%;--r:62deg">Press communication</span>
@@ -153,21 +197,6 @@
     <span style="--x:66%;--y:8%;--r:28deg">Social media</span>
     <span style="--x:74%;--y:76%;--r:-4deg">Storytelling</span>
     <span style="--x:97%;--y:40%;--r:12deg">Product seeding</span>
-  </div>
-
-  <div class="about-grid">
-    <div class="reveal">
-      <p class="eyebrow">Who I am</p>
-      <p class="about-lead">I’m a recent graduate based in Stockholm with a strong interest in PR, marketing and brand communication.</p>
-      <p>Through my time at ATP Atelier and Jung Relations, I’ve gained hands-on experience in both in-house and agency environments — working with influencer relations, press communication, campaign coordination, social media and content creation.</p>
-      <p>I’m particularly passionate about fashion, beauty and lifestyle, with an interest in creative storytelling and building meaningful connections between brands and their audiences.</p>
-    </div>
-    <div class="facts reveal">
-      <div><b>3</b><span>Editorial features</span></div>
-      <div><b>2</b><span>Degrees</span></div>
-      <div><b>2</b><span>In-house &amp; agency</span></div>
-      <a class="pill-btn pill-btn--dark" id="cv" href="assets/Evelina-Beyene-CV.pdf" download hidden>Download CV <span aria-hidden="true">↓</span></a>
-    </div>
   </div>
 
   <div class="cv-cols">
@@ -186,6 +215,28 @@
       </ul>
     </div>
   </div>
+
+  <div class="docs">
+    <p class="eyebrow reveal">Documents</p>
+    <div class="docs-grid">
+      <a class="doc reveal" href="assets/Evelina-Beyene-CV.pdf" target="_blank" rel="noopener">
+        <span class="doc-paper doc-paper--cv"><b>CV</b><i>Evelina Beyene</i></span>
+        <span class="doc-txt"><b>CV</b><span>PDF · Swedish</span></span>
+      </a>
+      <a class="doc reveal" href="assets/docs/Evelina-Beyene-Recommendation-ATP-Atelier.pdf" target="_blank" rel="noopener">
+        <span class="doc-paper"><img src="assets/img/recommendation.jpg" alt="" loading="lazy"></span>
+        <span class="doc-txt"><b>Recommendation</b><span>ATP Atelier · PDF</span></span>
+      </a>
+      <a class="doc reveal" href="assets/docs/Evelina-Beyene-BA-Stockholm-University.pdf" target="_blank" rel="noopener">
+        <span class="doc-paper"><img src="assets/img/degree-su.jpg" alt="" loading="lazy"></span>
+        <span class="doc-txt"><b>Degree certificate</b><span>Stockholm University · PDF</span></span>
+      </a>
+      <a class="doc reveal" href="assets/docs/Evelina-Beyene-Berghs-Diploma.pdf" target="_blank" rel="noopener">
+        <span class="doc-paper"><img src="assets/img/degree-berghs.jpg" alt="" loading="lazy"></span>
+        <span class="doc-txt"><b>Diploma</b><span>Berghs · PDF</span></span>
+      </a>
+    </div>
+  </div>
 </section>
 
 <!-- ─── Contact ─────────────────────────────────────────── -->
@@ -201,20 +252,20 @@
       <p class="muted">Stockholm, SE</p>
     </div>
     <ul class="foot-menu">
-      <li><a href="#work">Work</a></li>
-      <li><a href="#press">Press</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="mailto:evelinabeyene@gmail.com">Email</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="assets/Evelina-Beyene-CV.pdf" target="_blank" rel="noopener">CV</a></li>
     </ul>
     <div class="foot-links">
       <a href="mailto:evelinabeyene@gmail.com">evelinabeyene@gmail.com</a>
-      <!-- <a href="https://www.linkedin.com/in/TODO">LinkedIn ↗</a> -->
+      <a href="https://www.linkedin.com/in/evelina-beyene-4299071b6/" target="_blank" rel="noopener">LinkedIn ↗</a>
     </div>
   </footer>
   <p class="copy muted"><span>© 2026 Evelina Beyene</span><span>Stockholm</span></p>
 </section>
 
 </main>
-<script src="script.js?v=3" defer></script>
+<script src="script.js?v=4" defer></script>
 </body>
 </html>

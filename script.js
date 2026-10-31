@@ -71,9 +71,3 @@ phones.forEach((phone) => {
     if (unmute) video.play().catch(() => {});
   });
 });
-
-// Show the CV button only once the PDF exists
-const cv = document.getElementById('cv');
-fetch(cv.getAttribute('href'), { method: 'HEAD' })
-  .then((r) => { if (r.ok) cv.hidden = false; })
-  .catch(() => {});
